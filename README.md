@@ -1,5 +1,5 @@
 ### Ankit Rathi
-DevOps Engineer @ [Tradeling.com](tradeling.com) | 1X AWS | Ex - SE @ Walmart Labs India 
+DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India 
 
 - [terraform-kitchen](https://codeaprendiz.github.io/terraform-kitchen/)
 - [kubernetes-kitchen](https://codeaprendiz.github.io/kubernetes-kitchen/)
