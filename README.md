@@ -6,4 +6,5 @@ DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India
 - [linux-commands](https://codeaprendiz.github.io/devops-essentials/linux-commands/linux-commands-index.html)
 - [kubernetes](https://ankitrathi.info/devops-essentials/kubernetes/)
 - [terraform](https://ankitrathi.info/devops-essentials/terraform/)
+- [ansible](https://ankitrathi.info/ansible-kitchen/)
 
