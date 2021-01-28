@@ -18,6 +18,3 @@ DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India
 
 
 
-
-
-
