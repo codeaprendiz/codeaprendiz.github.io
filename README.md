@@ -1,7 +1,5 @@
 ### Ankit Rathi
 
-[LinkedIn](https://linkedin.com/in/ankit-singh-rathi) | [Stackoverflow](https://stackoverflow.com/users/5761011/codeaprendiz?tab=profile) | [Twitter](https://twitter.com/Ankit_Rathi_) | [Github](https://github.com/codeaprendiz)
-
 
 DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India 
 
