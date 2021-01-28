@@ -1,5 +1,7 @@
 ### Ankit Rathi
-[LinkedIn](https://linkedin.com/in/ankit-singh-rathi) | [Stackoverflow](https://stackoverflow.com/users/5761011/codeaprendiz?tab=profile) | [Twitter](https://twitter.com/Ankit_Rathi_) | [Github](https://github.com/codeaprendiz) | [Email](codeaprendiz@gmail.com)
+
+[LinkedIn](https://linkedin.com/in/ankit-singh-rathi) | [Stackoverflow](https://stackoverflow.com/users/5761011/codeaprendiz?tab=profile) | [Twitter](https://twitter.com/Ankit_Rathi_) | [Github](https://github.com/codeaprendiz)
+
 
 DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India 
 
@@ -12,6 +14,9 @@ DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India
 - [monitoring](https://codeaprendiz.github.io/devops-essentials/monitoring/)
 - [nginx](https://ankitrathi.info/devops-essentials/nginx/nginx-index.html)
 - [tls](https://ankitrathi.info/devops-essentials/tls/tls-basics.html)
+
+
+
 
 
 
