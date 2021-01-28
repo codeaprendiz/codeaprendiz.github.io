@@ -8,6 +8,9 @@ DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India
 - [terraform](https://ankitrathi.info/devops-essentials/terraform/)
 - [ansible](https://ankitrathi.info/ansible-kitchen/)
 - [monitoring](https://codeaprendiz.github.io/devops-essentials/monitoring/)
-- [nginx](https://ankitrathi.info/devops-essentials/nginx)
-- [tls](https://ankitrathi.info/devops-essentials/tls)
+- [nginx](https://codeaprendiz.github.io/devops-essentials/nginx)
+- [tls](https://codeaprendiz.github.io/devops-essentials/tls)
+
+
+
 
