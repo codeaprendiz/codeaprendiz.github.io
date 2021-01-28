@@ -6,7 +6,9 @@
 [Github](https://github.com/codeaprendiz)
 
 
-DevOps Engineer @ Tradeling.com | 1X AWS | Ex - SE @ Walmart Labs India 
+DevOps Engineer @ Tradeling.com
+1X AWS 
+Ex - SE @ Walmart Labs India 
 
 - [docker](https://codeaprendiz.github.io/docker-kitchen/)
 - [docker-compose](https://codeaprendiz.github.io/docker-compose-kitchen/)
