@@ -18,12 +18,3 @@ Ex - SE @ Walmart Labs India
 - [monitoring](monitoring)
 - [ansible](https://ankitrathi.info/ansible-kitchen/)
 
-
-- [docker](https://codeaprendiz.github.io/docker-kitchen/)
-- [docker-compose](https://codeaprendiz.github.io/docker-compose-kitchen/)
-- [linux-commands](https://codeaprendiz.github.io/devops-essentials/linux-commands/linux-commands-index.html)
-- [kubernetes](https://ankitrathi.info/devops-essentials/kubernetes/)
-- [terraform](https://ankitrathi.info/devops-essentials/terraform/)
-- [monitoring](https://codeaprendiz.github.io/devops-essentials/monitoring/)
-
-
