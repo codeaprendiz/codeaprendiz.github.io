@@ -12,7 +12,7 @@ Ex - SE @ Walmart Labs India
 
 - [docker](docker-kitchen)
 - [docker-compose](docker-compose-kitchen)
-- [linux-commands](linux-commands)
+- [linux-commands](linux-commands/linux-commands-index.md)
 - [kubernetes](kubernetes)
 - [terraform](terraform)
 - [monitoring](monitoring)
