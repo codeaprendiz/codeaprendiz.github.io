@@ -1,1 +1,24 @@
 .idea
+
+.aws-credentials
+.terraform
+*terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.terraform.tfstate.lock.info
+credentials.txt
+.terraform.lock.hcl
+*.tfvars
+
+### docker-compose kitchen
+.data
+hsperfdata_root
+
+### Ignore till reviewd
+to-be-reviewed
+
+
+
+### coding-tasks
+
+node_modules
