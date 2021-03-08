@@ -7,7 +7,7 @@
 
 
 DevOps Engineer @ Tradeling.com |
-1X AWS | CKA
+1X AWS | CKA |
 Ex - SE @ Walmart Labs India 
 
 - [docker](docker-kitchen)
