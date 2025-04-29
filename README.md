@@ -5,7 +5,6 @@
 ### HomePage
 
 ![img](.images/image-2025-04-29-13-37-41.png)
-![](images/2022-08-01-22-35-24.png)
 
 ## AboutMe
 
