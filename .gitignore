@@ -22,3 +22,13 @@ to-be-reviewed
 ### coding-tasks
 
 node_modules
+
+## tmp
+tmp
+
+## Jekyll
+_site
+.jekyll-cache
+.jekyll-metadata
+Gemfile.lock
+.jekyll-bundle
