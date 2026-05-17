@@ -1,5 +1,8 @@
 ## Static Portfolio Website Using Github Pages
 
+> [!NOTE]
+> This is a work in progress.
+
 ## Run Locally
 
 **Option 1 — Named Docker volume (gems managed by Docker):**
