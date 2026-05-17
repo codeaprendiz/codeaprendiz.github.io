@@ -1,0 +1,196 @@
+<!-- ─── EXPERIENCE ───────────────────────────────────────────────────────── -->
+<section id="experience" style="padding: 96px 24px; background:#07091a;">
+  <div class="max-w-6xl mx-auto">
+    <div class="section-label">
+      <h2 class="text-white font-bold" style="font-size:1.9rem;">Experience</h2>
+      <span class="text-slate-500 text-sm">Companies I've worked with</span>
+    </div>
+
+    <div style="position:relative;" id="timeline-container">
+      <!-- Vertical track (dim) -->
+      <div class="timeline-line hidden md:block" style="position:absolute;left:23px;top:8px;bottom:40px;width:2px;border-radius:2px;opacity:0.15;"></div>
+      <!-- Scroll-driven fill -->
+      <div id="timeline-fill" class="hidden md:block" style="position:absolute;left:23px;top:8px;width:2px;border-radius:2px;height:0;background:linear-gradient(to bottom,#22d3ee,#818cf8,#c084fc);pointer-events:none;z-index:2;transition:height 0.12s ease-out;"></div>
+
+      <div style="display:flex;flex-direction:column;gap:24px;">
+
+        <!-- ── Halian ── -->
+        <div style="position:relative;" class="md:pl-16">
+          <div class="timeline-dot-emerald hidden md:block" style="position:absolute;left:16px;top:24px;width:16px;height:16px;border-radius:50%;border:2px solid #07091a;z-index:3;"></div>
+          <div class="card" style="border-radius:18px;padding:28px;">
+            <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;">
+              <div style="display:flex;align-items:flex-start;gap:14px;">
+                <div style="width:56px;height:56px;border-radius:12px;background:white;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;">
+                  <img src="assets/images/companies/halian.png" alt="Halian" style="width:48px;height:48px;object-fit:contain;">
+                </div>
+                <div>
+                  <h3 class="text-white font-bold" style="font-size:1.1rem;">Senior DevOps Engineer · Contract</h3>
+                  <div style="color:#34d399;font-size:0.875rem;font-weight:600;margin-top:2px;">Halian <span style="color:#475569;font-weight:400;">· Client: Leading Financial Institution in UAE</span></div>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div class="text-slate-400 text-sm">Feb 2024 — Present</div>
+                <div class="text-slate-600 text-xs mt-0.5">1+ yr</div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;padding-left:20px;">
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">CI/CD Migration:</strong> Migrated 30+ microservices CI/CD pipelines from on-premise Azure DevOps to AWS-native services (CodeBuild, CodePipeline, CodeCommit), with trunk-based branching strategy, event-driven automation using Lambda (Python), EventBridge, and SNS.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">GitOps Workflows:</strong> Designed and implemented GitOps pipelines for 40+ microservices on Azure AKS using GitHub Actions, with automated DEV → UAT → PROD promotion, PR-based approval gates, and a dedicated GitOps repo.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Terraform CI/CD Pipelines:</strong> Built GitHub Actions pipelines for Terraform-based Azure infrastructure provisioning with plan/apply split, remote state in Azure Storage, environment-specific tfvars files, and secrets fetched at runtime from Azure Key Vault.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">DevSecOps Integration:</strong> Embedded SAST, SCA, and DAST (Checkmarx), container image scanning (Trivy), image signing (cosign), and code quality gates (SonarQube) across all CI/CD pipelines.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">End-to-End TLS:</strong> Leveraged existing Internal and Intermediate CAs to manage TLS certificates for 40+ microservices, enforcing encrypted communication across the full request path from APIM to AKS.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Azure Landing Zone:</strong> Designed and provisioned a secure, multi-subscription Hub-and-Spoke Azure landing zone with Azure Firewall Premium (IDPS), UDRs, ExpressRoute, Azure Sentinel, RBAC, and Azure Policy across Management, Identity, Connectivity, Non-Prod, and Prod subscriptions.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Azure API Management:</strong> Deployed external and internal APIM instances in internal mode within workload spoke subscriptions, fronted by Application Gateway with WAF in the Connectivity Hub for secure external access.</span></li>
+              <li style="position:relative;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 6px #34d399;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">AI Document Intelligence:</strong> Provisioned a dedicated Azure subscription for AI document extraction workloads using Azure Document Intelligence, AKS, PostgreSQL, Blob Storage, Key Vault, and APIM — all via Terraform with private endpoints and managed identities.</span></li>
+            </ul>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;">
+              <span class="skill-tag">Azure</span><span class="skill-tag">AKS</span><span class="skill-tag">Terraform</span><span class="skill-tag">GitHub Actions</span><span class="skill-tag">API Management</span><span class="skill-tag">Checkmarx</span><span class="skill-tag">DevSecOps</span><span class="skill-tag">Azure Firewall</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Banque Saudi Fransi ── -->
+        <div style="position:relative;" class="md:pl-16">
+          <div class="timeline-dot-amber hidden md:block" style="position:absolute;left:16px;top:24px;width:16px;height:16px;border-radius:50%;border:2px solid #07091a;z-index:3;"></div>
+          <div class="card" style="border-radius:18px;padding:28px;">
+            <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;">
+              <div style="display:flex;align-items:flex-start;gap:14px;">
+                <div style="width:56px;height:56px;border-radius:12px;background:white;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;">
+                  <img src="assets/images/companies/bsf.svg" alt="Banque Saudi Fransi" style="width:48px;height:48px;object-fit:contain;">
+                </div>
+                <div>
+                  <h3 class="text-white font-bold" style="font-size:1.1rem;">Senior Platform Engineer / Software Engineer 3</h3>
+                  <div style="color:#f59e0b;font-size:0.875rem;font-weight:600;margin-top:2px;">Banque Saudi Fransi</div>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div class="text-slate-400 text-sm">Sep 2022 — Jan 2024</div>
+                <div class="text-slate-600 text-xs mt-0.5">1 yr 4 mos</div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;padding-left:20px;">
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Automated Certificate Management:</strong> Employed cert-manager for streamlined certificate management via HTTP and DNS validations, enhancing security and efficiency.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">OAuth2 Authentication:</strong> Improved security posture by integrating OAuth2 authentication for internal services like Grafana, providing a seamless Single Sign-On (SSO) experience for developers.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Unified Monitoring and Alerting:</strong> Implemented kube-prometheus to ensure robust observability of the Kubernetes cluster's health and performance.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">iOS Build Optimization:</strong> Reduced iOS build time by <strong class="text-white">75%</strong> (from 1 hour to 15 minutes) using self-hosted Mac Studio GitHub runners, significantly enhancing build efficiency.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Infrastructure Architecture:</strong> Played a pivotal role in architecting a secure and robust infrastructure, utilizing Hub and Spoke model VCN, Next-Generation Firewall, DRG, NLB, ALB, and OCI Kubernetes.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">SAML Integration:</strong> Implemented SAML to create users for SonarQube using Keycloak as the Identity Provider, streamlining user access.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Backup and Recovery:</strong> Set up full and differential backup jobs for self-managed MSSQL on Kubernetes to achieve the required RTO and RPO.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">CI/CD Pipelines:</strong> Developed and managed CI/CD pipelines leveraging GitHub Actions and ArgoCD. Automated Kubernetes manifests linting and deployment using Kubescore, Kubeval, and Kustomize.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">WAF Deployment:</strong> Configured WAF to protect against DDoS attacks, improving web application security.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Agile Methodology:</strong> Actively participated in daily stand-ups, sprint planning, and adhered to agile methodologies for efficient project execution.</span></li>
+              <li style="position:relative;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#f59e0b;box-shadow:0 0 6px #f59e0b;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Incident and Change Management:</strong> Proficient in incident and change management, prioritizing issue resolution to maintain optimal service performance.</span></li>
+            </ul>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;">
+              <span class="skill-tag">OCI</span><span class="skill-tag">Kubernetes</span><span class="skill-tag">ArgoCD</span><span class="skill-tag">Keycloak</span><span class="skill-tag">Prometheus</span><span class="skill-tag">Loki</span><span class="skill-tag">Trivy</span><span class="skill-tag">GitHub Actions</span><span class="skill-tag">MSSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Tradeling ── -->
+        <div style="position:relative;" class="md:pl-16">
+          <div class="timeline-dot-cyan hidden md:block" style="position:absolute;left:16px;top:24px;width:16px;height:16px;border-radius:50%;border:2px solid #07091a;z-index:3;"></div>
+          <div class="card" style="border-radius:18px;padding:28px;">
+            <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;">
+              <div style="display:flex;align-items:flex-start;gap:14px;">
+                <div style="width:56px;height:56px;border-radius:12px;overflow:hidden;flex-shrink:0;">
+                  <img src="assets/images/companies/tradeling.jpeg" alt="Tradeling" style="width:56px;height:56px;object-fit:cover;">
+                </div>
+                <div>
+                  <h3 class="text-white font-bold" style="font-size:1.1rem;">DevOps Engineer</h3>
+                  <div style="color:#22d3ee;font-size:0.875rem;font-weight:600;margin-top:2px;">Tradeling</div>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div class="text-slate-400 text-sm">Jan 2020 — Aug 2022</div>
+                <div class="text-slate-600 text-xs mt-0.5">2 yrs 7 mos</div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;padding-left:20px;">
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Kubernetes Infrastructure:</strong> Set up infrastructure on self-managed Kubernetes cluster on AWS using Ansible, Terraform, and poseidon/typhoon. Generated k8s manifests using PHP.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">API Gateway Migration:</strong> Migrated all backend APIs to AWS Edge Optimized API Gateway and EKS. Used AWS WAF, API Throttling, API Caching, Network LB and VPC Link.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">CloudFront Caching:</strong> Caching APIs at AWS CloudFront with dynamic origins, reducing homepage response time by <strong class="text-white">75%</strong> (105ms → 25ms) with custom CORS and caching policies.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">China Performance:</strong> Reduced average website load time in China by <strong class="text-white">80%</strong> (2500ms → 500ms); reduced cost from <strong class="text-white">$3,500 → $100/mo (97%)</strong> using Zenlayer Global Accelerator and geolocation records.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">PCI-DSS Compliance:</strong> Closed <strong class="text-white">70+ vulnerabilities</strong> reported in ASV, Network VAPT, and Web Application PT to achieve PCI-DSS compliance.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">ELK Monitoring:</strong> Set up monitoring for Tradeling infrastructure from scratch using ELK stack, Metricbeat, Journalbeat, and Ansible collecting data from 20+ servers across 3 environments.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">CI/CD Pipelines:</strong> Set up CI/CD on GitHub Actions and Docker Jenkins using Ansible, running <strong class="text-white">5,000+ jobs/day</strong>. Maintained Jenkins jobs using Groovy scripts.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Kibana Dashboards:</strong> Created monitoring dashboards in Kibana for API Performance, MongoDB, NATS, MySQL, Kubernetes, Hosts, System Monitoring, and Docker.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Automated Releases:</strong> Daily automated releases using Python script (<strong class="text-white">2,000+ lines</strong>) sending automated email change logs of 50+ repositories to respective teams.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Database Management:</strong> Maintained self-managed databases including MySQL and MongoDB using docker-compose. Daily backups uploaded to AWS S3 buckets using Ansible.</span></li>
+              <li style="position:relative;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Website Monitoring:</strong> 24/7 automated website monitoring using Prometheus, Alertmanager, and Blackbox Exporter with automated Slack alerts.</span></li>
+            </ul>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;">
+              <span class="skill-tag">AWS</span><span class="skill-tag">Kubernetes</span><span class="skill-tag">Terraform</span><span class="skill-tag">Ansible</span><span class="skill-tag">ELK</span><span class="skill-tag">Jenkins</span><span class="skill-tag">Python</span><span class="skill-tag">Cloudfront</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Accelya ── -->
+        <div style="position:relative;" class="md:pl-16">
+          <div class="timeline-dot-violet hidden md:block" style="position:absolute;left:16px;top:24px;width:16px;height:16px;border-radius:50%;border:2px solid #07091a;z-index:3;"></div>
+          <div class="card" style="border-radius:18px;padding:28px;">
+            <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;">
+              <div style="display:flex;align-items:flex-start;gap:14px;">
+                <div style="width:56px;height:56px;border-radius:12px;background:white;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;">
+                  <img src="assets/images/companies/accelya.svg" alt="Accelya" style="width:48px;height:48px;object-fit:contain;">
+                </div>
+                <div>
+                  <h3 class="text-white font-bold" style="font-size:1.1rem;">DevOps Engineer</h3>
+                  <div style="color:#818cf8;font-size:0.875rem;font-weight:600;margin-top:2px;">Accelya Group</div>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div class="text-slate-400 text-sm">Nov 2018 — Jan 2020</div>
+                <div class="text-slate-600 text-xs mt-0.5">1 yr 2 mos</div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;padding-left:20px;">
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#818cf8;box-shadow:0 0 6px #818cf8;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Infrastructure Setup:</strong> Spearheaded the setup of infrastructure for Development, UAT, and Production environments on Weblogic and Tomcat platforms, catering to the specific needs of new customers.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#818cf8;box-shadow:0 0 6px #818cf8;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Migration of Build-Jobs:</strong> Successfully migrated the build-jobs of <strong class="text-white">66 customers</strong>, optimizing the process by separating the Build &amp; Deployment phases, improving efficiency and deployment reliability.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#818cf8;box-shadow:0 0 6px #818cf8;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">JIRA Dashboard:</strong> Crafted an extensive JIRA dashboard widely adopted across multiple teams, significantly streamlining ticket management and bolstering adherence to DevOps practices.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#818cf8;box-shadow:0 0 6px #818cf8;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Agile Methodology:</strong> Actively integrated Agile methodologies into project management and operational workflows, leading to more adaptive and responsive development cycles.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#818cf8;box-shadow:0 0 6px #818cf8;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">SRE Practices:</strong> Applied SRE principles to ensure high availability and reliability of services. Focused on automating solutions for operational tasks, incident response, and system monitoring.</span></li>
+              <li style="position:relative;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#818cf8;box-shadow:0 0 6px #818cf8;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Cross-Functional Collaboration:</strong> Fostered a culture of collaboration between development, operations, and quality assurance teams, promoting a unified approach to project execution and problem-solving.</span></li>
+            </ul>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;">
+              <span class="skill-tag">Weblogic</span><span class="skill-tag">Tomcat</span><span class="skill-tag">Jenkins</span><span class="skill-tag">JIRA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Walmart Labs ── -->
+        <div style="position:relative;" class="md:pl-16">
+          <div class="timeline-dot-indigo hidden md:block" style="position:absolute;left:16px;top:24px;width:16px;height:16px;border-radius:50%;border:2px solid #07091a;z-index:3;"></div>
+          <div class="card" style="border-radius:18px;padding:28px;">
+            <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px;">
+              <div style="display:flex;align-items:flex-start;gap:14px;">
+                <div style="width:56px;height:56px;border-radius:12px;background:white;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;">
+                  <img src="assets/images/companies/walmart.png" alt="Walmart Labs" style="width:48px;height:48px;object-fit:contain;">
+                </div>
+                <div>
+                  <h3 class="text-white font-bold" style="font-size:1.1rem;">Software Engineer</h3>
+                  <div style="color:#a5b4fc;font-size:0.875rem;font-weight:600;margin-top:2px;">Walmart Labs</div>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div class="text-slate-400 text-sm">Jan 2017 — Oct 2018</div>
+                <div class="text-slate-600 text-xs mt-0.5">1 yr 9 mos</div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;padding-left:20px;">
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#a5b4fc;box-shadow:0 0 6px #a5b4fc;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Microservices Infrastructure:</strong> Developed and managed infrastructure for microservices on OneOps, incorporating disaster recovery capabilities spanning <strong class="text-white">thousands of servers</strong> across two data centers, ensuring high availability and resilience.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#a5b4fc;box-shadow:0 0 6px #a5b4fc;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">DevOps Automation Dashboard:</strong> Engineered a DevOps Automation Dashboard using Django and Python to automate responses to Splunk alerts via passwordless SSH, significantly enhancing operational efficiency and reducing manual intervention.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#a5b4fc;box-shadow:0 0 6px #a5b4fc;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Agile in Infrastructure:</strong> Applied Agile principles in the development and maintenance of infrastructure, enabling rapid adaptation to changing requirements and continuous improvement.</span></li>
+              <li style="position:relative;margin-bottom:10px;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#a5b4fc;box-shadow:0 0 6px #a5b4fc;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Proactive Incident Management:</strong> Implemented proactive monitoring and alerting systems aligned with SRE best practices to anticipate and swiftly address potential issues, minimizing downtime and service disruptions.</span></li>
+              <li style="position:relative;"><span style="position:absolute;left:-19px;top:7px;width:6px;height:6px;border-radius:50%;background:#a5b4fc;box-shadow:0 0 6px #a5b4fc;"></span><span class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Cross-Functional Collaboration:</strong> Fostered a collaborative environment between development, operations, and IT teams, ensuring seamless integration and efficiency in managing large-scale infrastructure.</span></li>
+            </ul>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;">
+              <span class="skill-tag">OneOps</span><span class="skill-tag">Django</span><span class="skill-tag">Python</span><span class="skill-tag">Celery</span><span class="skill-tag">Splunk</span><span class="skill-tag">SSH</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
